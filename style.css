@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -15,45 +15,99 @@
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color:#000000;
-    padding:30px;
+    color: #000000;
+    padding: 30px;
     background-color: #546686;
 }
 
-main#album{
-    display:flex;
+main#album {
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
 
-section.coluna{
+section.coluna {
     flex: 1 1 100%;
     padding: 1px 150px;
     display: flex;
+    left: 30px;
 
 }
 
-.ferias{
+.ferias {
     background-color: #334d7f;
     border: 1px solid #334d7f;
-    padding:20px;
-    margin-bottom:20px;
+    padding: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     padding: 90px;
     border: solid #ffffff 5px;
 }
-.ferias img{
-    width:15vw;
-    height:20vh;
-    padding-bottom:10px;
+
+.ferias img {
+    width: 15vw;
+    height: 20vh;
+    padding-bottom: 10px;
 }
 
-footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
+.body_login {
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.container {
+    height: 350px;
+    display: flex;
+    max-width: 450px;
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #546686;
-    color:#000000;
-    padding:30px;
-    text-align:center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+form button {
+    color: azure;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+    background-color: #334d7f;
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+    width: 60%;
+    height: 30px;
+}
+
+button:hover {
+    background-color: #334d7f;
+    color: #546686;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    position: relative;
+}
+
+form{
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: start;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 90%;
+    padding: 15px;
 }
