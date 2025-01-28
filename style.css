@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ferias p {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:#000000;
+    padding:30px;
+    background-color: #546686;
+}
+
+main#album{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+section.coluna{
+    flex: 1 1 100%;
+    padding: 1px 150px;
+    display: flex;
+
+}
+
+.ferias{
+    background-color: #334d7f;
+    border: 1px solid #334d7f;
+    padding:20px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    border: solid #ffffff 5px;
+}
+.ferias img{
+    width:15vw;
+    height:20vh;
+    padding-bottom:10px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: #546686;
+    color:#000000;
+    padding:30px;
+    text-align:center;
+}
